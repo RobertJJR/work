@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend> Merit America Registration!</legend>
+					<lable for="first_name"><b>Enter Your<u>First Name:</u></b></lable>
+						<input type="text" id="first_name" name="first_name" required>
+				<br>
+				<br>
+					<label for="last_name"><b>Enter Your <u>Last Name:</u></b></label>
+                    	<input type="text" id="last_name" name="last_name" required>
+                <br>
+            	<br>
+            		<label for="email"><b>Enter Your <u>Email:</u></b></label>
+                    	<input type="text" id="email" name="email" required>
+                <br>
+                <br>
+                	<label for="password"><b>Create a <u>Passowrd:</u></b></label>
+              			<input type="password" placeholder="Password" id="password" required>
+                		<input type="password" placeholder="Confirm Password" id="confirm_password" required>
+			</fieldset>
+			<fieldset>
+				<legend>Tell Us About You!</legend>
+					<label for="birthday" id="birthday" name="birthday"><b>Enter Your <u>Birthday:</u></b></label>
+						<input type="birthday" placeholder="MM/DD/YYYY" id="birthday" required>
+						<img  src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAAP1BMVEX///+YmZ2goaXn5+ijo6f39/ioqazj4+Slpqr09PXs7O3y8vK8vcC5ur3OztDHx8rNzc/T1NWvr7O0tbjd3d9r8+usAAAAk0lEQVQokeWRSQ7DIAxFPYAZShha7n/WGtKwaOgJ+jb+5smyhAEGiRguMrWVwSKW1Qg+r2eFsM6qwAuPkXXYe2HB3r0MvCtYWHMFVKIgNzzpBSuPADQ6Tvb4mBxSyFppGurhEqpsxWV2DEO618jCG91P0zh7x00T4U48ZzaG/8zsfucxTY78TWxqfpxHr13I7KDyBgUuBdfb2Z0aAAAAAElFTkSuQmCC alt="calendar" height=25 width=25>
+				<br>
+				<br>
+					<label for="language" id="language" name="language"><b>What's Your<u>Preferred Language:</u></b></label>
+					<select>
+						<option value="blank">   </option>
+						<option value="Java">Java</option>
+						<option value="JavaScript">Javascript</option>
+                    	<option value="C#">C#</option>
+                    	<option value="C++">C++</option>
+                    	<option value="C">C</option>
+                    	<option value="Ruby">Ruby</option>
+                    	<option value="Python">Python</option>
+                    	<option value="SQL">Ruby</option>
+                    </select>
+                <br>
+                <br>
+                	<label for="gender"><b>What's Your <u>Gender:</u></b></label>
+                  		<input type="radio" id="male" name="gender" value="male" required>
+                  		<label for="male">Male</label>
+                  		<input type="radio" id="female" name="gender" value="female" required>
+                  		<label for="female">Female</label>
+                  		<input type="radio" id="decline" name="gender" value="decline" required>
+                  		<label for="decline">Prefer not to say</label>
+                <br>
+                <br>
+                  	<label for="about"><b>Say a few words about <u>yourself:</u></b></label>
+                <br>
+                <br>
+                  		<textarea name="description"></textarea>
+                <br>
+                <br>
+                	<button type="submit" class="pure-button pure-button-primary">Confirm</button>
+			</fieldset>
+		</form>
+	</body>
+</html>

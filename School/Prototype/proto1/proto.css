@@ -1,0 +1,28 @@
+*{
+ /*border: 1px solid green;*/
+ box-align: border-box;
+}
+.jumbotron{
+    background-color: yellow;
+    width: 200px;
+}
+.testbox{
+    height: 100px;
+    width: 100px;
+    background-color: darkkhaki;
+    margin: 10px; 
+}
+.my-shadow {
+  box-shadow: 2px 2px 15px  lightgrey;
+}
+h5 {
+	text-align: center;
+	color: darkgrey;
+}
+h6 {
+	text-align: center;
+	color: lightgrey;
+}
+h4 {
+	color: white;
+}

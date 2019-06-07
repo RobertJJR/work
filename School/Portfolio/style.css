@@ -1,0 +1,154 @@
+*{	
+	outline: 3px dotted yellow;
+	margin: 0px;
+	padding: 0px;
+}
+/**/
+#back{
+	height: 1102px;
+	width: 1000px;
+	display:inline-block;
+	background-image: radial-gradient(rgb(111, 89, 100), rgb(27, 11, 15)); 
+}
+/**/
+#header{
+	height: 50px;
+	width: 100%;
+	background-color: rgb(245,245,245);
+}
+/**/
+#photo{ /*Photo of the girl*/
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+/**/
+#photo img { /*Photo of the girl*/
+  	width: 400px;
+  	height: auto;
+  	border-style: solid;
+  	border-width: 5px;
+  	border-color: grey;
+}
+/**/
+.abouthd{
+	width: 100%;
+	min-height: 40px;
+	background-image: linear-gradient(rgb(178, 178, 182),rgb(135, 133, 147),rgb(178, 178, 182));
+	position: static;
+}
+/**/
+#about{
+	height: 272px;
+	width: 51%;
+	/*background-image: linear-gradient(to right, white ,rgb(218, 203, 217));*/
+	background-color: black;
+	display: inline-block;
+	margin-left: 30px;
+	position: relative;
+	bottom: 60px;
+}
+/**/
+/*#body{
+	width: 1000px;
+	height: 630px;
+	background-color: green;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	display: inline-block;
+
+}*/
+/**/
+.blockhd1{
+	margin-top:20px;
+	width: 302px;
+	min-height: 40px;
+	background-image: linear-gradient(rgb(178, 178, 182),rgb(135, 133, 147),rgb(178, 178, 182));
+	margin-left: 20px;
+	display: inline-block;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+	position: static;
+}
+/**/
+p.sansserif {
+  font-family: Arial;
+  margin: 10px;
+  color: white;
+}
+/**/
+p.sansseri {
+  font-family: Arial;
+  font-size: 14px;
+  
+}
+/**/
+h1 {
+	font-family: Arial;
+	color: white;
+	margin-left: 10px;
+}
+/**/
+.block{
+	width: 302px;
+	min-height: 340px;
+	background-image: linear-gradient(to right, white ,rgb(218, 203, 217));
+	margin-left: 20px;
+	display: inline-block;
+	position: static;
+	bottom: 10px;
+}
+/**/
+.lamode{
+	width: 302px;
+	height: auto;
+}
+/**/
+.family{
+	width: 302px;
+	height: auto;
+}
+/**/
+.five{
+	width: 302px;
+	height: auto;
+}
+/**/
+.lock{
+	width: 300px;
+	height:145px;
+	border-style: solid;
+	border-color: red;
+}
+/**/
+.blockhd2{
+	width: 302px;
+	min-height: 40px;
+	background-image: linear-gradient(rgb(178, 178, 182),rgb(135, 133, 147),rgb(178, 178, 182));
+	margin-left: 20px;
+	display: inline-block;
+	position: relative;
+	bottom: 11px;
+}
+/**/
+.block2{
+	width: 302px;
+	min-height: 213px;
+	background-image: linear-gradient(to right, white ,rgb(218, 203, 217));
+	margin-left: 20px;
+	vertical-align: bottom;
+	display: inline-block;
+	position: relative;
+	bottom: 15px;
+	margin-bottom: 10px;
+}
+/**/
+#footer{
+	height: 80px;
+	width: 100%;
+	background-color: rgb(245,245,245);
+	display: inline-block;
+	vertical-align: bottom;
+}

@@ -1,0 +1,100 @@
+*{
+	margin-left: 5px;
+	margin-right:10px;
+	padding: 0px;
+
+}
+/*-----------------------------------------------------------------------------------------------*/
+.med{
+	height: 100px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 480px){
+	.med {
+		background-color: rgb(170,170,170);
+		height: 300px;
+		width: 100%;
+
+
+	}
+}
+@media only screen and (min-width: 481px){
+	.med {
+		background-color: rgb(170,170,170);
+		height: 100%;
+		width: 100%;
+		border: 1px solid rgb(209,195,144);
+		
+	}
+}
+@media only screen and (min-width: 1024px){
+	.med {
+		background-color: rgb(170,170,170);
+		height: 100%;
+		width: 100%;
+	}
+}
+/*-----------------------------------------------------------------------------------------------*/
+.css{
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	
+
+}
+
+@media only screen and (max-width: 480px){
+	.css {
+		background-color: rgb(197,197,197);
+		height: 200px;
+		width: 100%;
+		
+	}
+}
+@media only screen and (min-width: 481px){
+	.css {
+		background-color: rgb(197,197,197);
+		height: 200px;
+		width: 100%;
+		border: 1px solid rgb(209,195,144);
+	}
+}
+@media only screen and (min-width: 1024px){
+	.css {
+		background-color: rgb(197,197,197);
+		height: 200px;
+		width: 100%;
+	}
+}
+/*-----------------------------------------------------------------------------------------------*/
+.scrn {
+	margin-top: 10px;
+	height: 50px;
+	width: 100%;
+
+}
+
+@media only screen and (max-width: 480px){
+	.scrn {
+		background-color: rgb(255,255,143)
+		height: 50px;
+		width: 100%;
+		
+	}
+}
+@media only screen and (min-width: 481px){
+	.scrn {
+		background-color: rgb(255,255,143);
+		height: 50px;
+		width: 100%;
+		border: 1px solid rgb(209,195,144);
+	}
+}
+@media only screen and (min-width: 1024px){
+	.scrn {
+		background-color: 209 195 144;
+		height: 50px;
+		width: 100%;
+	}
+}
